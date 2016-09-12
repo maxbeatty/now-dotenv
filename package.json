@@ -1,0 +1,35 @@
+{
+  "name": "now-dotenv",
+  "version": "1.0.0",
+  "description": "now utility that includes values from .env file when deploying",
+  "main": "index.js",
+  "bin": {
+    "now-dotenv": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxbeatty/now-dotenv.git"
+  },
+  "keywords": [
+    "dotenv",
+    "now",
+    "zeit",
+    "deploy"
+  ],
+  "author": "Max Beatty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxbeatty/now-dotenv/issues"
+  },
+  "homepage": "https://github.com/maxbeatty/now-dotenv#readme",
+  "dependencies": {
+    "dotenv": "2.0.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "preferGlobal": true,
+  "peerDependencies": {
+    "now": ">=0.23.0"
+  }
+}
